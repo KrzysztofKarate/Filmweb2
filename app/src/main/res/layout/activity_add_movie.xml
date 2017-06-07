@@ -1,0 +1,53 @@
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="DODAJ FILM DO BAZY DANYCH"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/edit_tytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/darker_gray"
+        android:hint="tytul" />
+
+    <EditText
+        android:id="@+id/edit_gatunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/darker_gray"
+        android:hint="gatunek" />
+
+    <EditText
+        android:id="@+id/edit_aktor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="15dp"
+        android:hint="glowny aktor"
+        />
+
+    <Button
+        android:id="@+id/addMovie_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Dodaj"
+        />
+
+</LinearLayout>

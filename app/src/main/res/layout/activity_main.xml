@@ -1,0 +1,50 @@
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="WITAJ NA FILMWEB.V2"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimary"
+     />
+
+    <Button
+        android:id="@+id/pick_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="WYBIERZ FILM" />
+
+    <Button
+        android:id="@+id/roll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="LOSUJ FILM"
+        />
+
+    <Button
+        android:id="@+id/que_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="FILMY DO OBEJRZENIA"
+        />
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Dodaj film do bazy"
+        />
+
+</LinearLayout>
